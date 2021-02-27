@@ -20,7 +20,6 @@ router.post("/surveys", surveyController.create);
 router.post("/sendEmail", sendMailController.execute);
 
 // Routes of lists
-router.get("/users", userController.list);
 router.get("/surveys", surveyController.show);
 
 router.get("/answers/:value", answerController.execute)

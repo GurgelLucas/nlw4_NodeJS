@@ -14,13 +14,16 @@
 $ git clone https://github.com/GurgelLucas/nlw4_NodeJS.git
 
 # Instalando as dependências
-$ yarn install
+$ yarn
 
 # Subindo as migrations
 $ yarn typeorm migration:run
 
 # Start servidor (aplicação)
 $ yarn dev
+
+# Caso deseje executar os testes
+$ yarn test
 
 ```
 
